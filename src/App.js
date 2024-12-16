@@ -6,13 +6,13 @@ It contains the top-level state.
 ==================================================*/
 import React, {Component} from 'react';
 import {BrowserRouter as Router, Route} from 'react-router-dom';
-<Router basename="/bank-of-react"></Router>
-// Import other components
 import Home from './components/Home';
 import UserProfile from './components/UserProfile';
 import LogIn from './components/Login';
 import Credits from './components/Credits';
 import Debits from './components/Debits';
+<Router basename="/bank-of-react"></Router>
+// Import other components
 
 class App extends Component {
   constructor() {  // Create and initialize state
